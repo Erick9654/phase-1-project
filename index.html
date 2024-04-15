@@ -1,0 +1,51 @@
+<!-- Write your code here -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Laundry & Dry Cleaning Services</title>
+</head>
+<body>
+    <header>
+        <h1>Mama Fua Laundry & Dry Cleaning Services</h1>
+    </header>
+
+    <main>
+        <section id="priceList">
+            <h2>Price List</h2>
+            <ul id="itemList">
+            </ul>
+        </section>
+
+        <section id="customerForm">
+            <h2>Add New Customer</h2>
+            <form id="addCustomerForm">
+                <label for="name">Name:</label>
+                <input type="text" id="name" required><br>
+                <label for="location">Location:</label>
+                <input type="text" id="location" required><br>
+                <label for="pickupTime">Pick-up Time:</label>
+                <input type="datetime-local" id="pickupTime" required><br>
+                <label for="deliveryTime">Delivery Time:</label>
+                <input type="datetime-local" id="deliveryTime" required><br>
+                <button type="submit">Add Customer</button>
+            </form>
+        </section>
+
+        <section id="customerList">
+        </section>
+    </main>
+    <button id="myButton">Click Me</button>
+
+    <footer>
+        <img id="facebook" src="./png-clipart-facebook-scalable-graphics-icon-facebook-logo-facebook-logo-blue-logo-thumbnail.png" alt="Facebook"></a>
+        <img id="Instagram" src="./images.jpeg" alt="Instagram"></a>
+        <img id="WhatsApp" src="./images.png" alt="WhatsApp"></a>
+        <p>When people refuse to come clean, it is usually because they are hiding dirty laundry</p>
+    </footer>
+
+    <script src="./script.js"></script>
+</body>
+</html>
